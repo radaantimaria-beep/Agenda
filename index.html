@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VetAgenda | Clínica Veterinaria</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="descarga.png" alt="VetAgenda Logo" class="navbar-logo">
+            <span>VetAgenda</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="nosotros.html">Veterinaria</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                <li class="nav-item"><a class="nav-link" href="citas.html">Citas</a></li>
+                <li class="nav-item"><a class="nav-link" href="contactos.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<section class="hero-section">
+    <video autoplay muted loop playsinline class="hero-video">
+        <source src="https://videos.pexels.com/video-files/3195394/3195394-uhd_2560_1440_25fps.mp4" type="video/mp4">
+        
+    </video>
+    <div class="hero-overlay">
+        <div class="container hero-content">
+            <h1>Bienvenido a <span class="text-primary">VetAgenda</span></h1>
+            <p>Cuidamos a tu mascota con amor, tecnología y profesionalismo</p>
+            <div class="hero-buttons">
+                <a href="citas.html" class="btn btn-primary btn-lg">Reservar Cita <i class="bi bi-calendar-check"></i></a>
+                <a href="nosotros.html" class="btn btn-outline-light btn-lg">Conócenos <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="wave-divider">
+        <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" fill="white"></path>
+            <path d="M0,0V15.81C13,21.25,27.93,25.67,44.24,28.45c69.76,11.6,136.47,7.13,206.8-7.58,70.36-14.73,136.33-42.63,206.8-46.46,70.36-3.83,136.33,22.17,206.8,37.5,70.36,15.33,136.33,42.63,206.8,46.46,70.36,3.83,136.33-22.17,206.8-37.5C985.66,21.25,1059.71,4.58,1120,0Z" fill="white"></path>
+        </svg>
+    </div>
+</section>
+
+<section class="container my-5">
+    <div class="text-center mb-5">
+        <h2 class="section-title">Servicios <span class="text-primary">Destacados</span></h2>
+        <p class="section-subtitle">Ofrecemos atención integral para el bienestar de tu mascota</p>
+    </div>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="service-card">
+                <div class="service-icon"><i class="bi bi-heart-pulse"></i></div>
+                <h3>Consulta General</h3>
+                <p>Evaluación completa, diagnóstico y recomendaciones personalizadas.</p>
+                <a href="servicios.html" class="btn btn-outline-primary btn-sm">Más info</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="service-card">
+                <div class="service-icon"><i class="bi bi-syringe"></i></div>
+                <h3>Vacunación</h3>
+                <p>Esquemas completos de vacunación para perros y gatos.</p>
+                <a href="servicios.html" class="btn btn-outline-primary btn-sm">Más info</a>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="service-card">
+                <div class="service-icon"><i class="bi bi-scissors"></i></div>
+                <h3>Peluquería</h3>
+                <p>Baño medicado, corte de pelo, limpieza de oídos y uñas.</p>
+                <a href="servicios.html" class="btn btn-outline-primary btn-sm">Más info</a>
+            </div>
+        </div>
+    </div>
+    <div class="text-center mt-4">
+        <a href="servicios.html" class="btn btn-primary">Ver todos los servicios <i class="bi bi-arrow-right"></i></a>
+    </div>
+</section>
+
+<section class="testimonials-section">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="section-title text-white">Lo que dicen <span class="text-primary">nuestros clientes</span></h2>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="testimonial-card">
+                    <i class="bi bi-chat-quote-fill quote-icon"></i>
+                    <p>"Excelente atención, mi perro Max siempre sale feliz. El equipo es muy profesional."</p>
+                    <div class="testimonial-author"><i class="bi bi-person-circle"></i><span>María González</span></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial-card">
+                    <i class="bi bi-chat-quote-fill quote-icon"></i>
+                    <p>"Las instalaciones son modernas y el trato es inmejorable. Confío plenamente en VetAgenda."</p>
+                    <div class="testimonial-author"><i class="bi bi-person-circle"></i><span>Carlos Mendoza</span></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="testimonial-card">
+                    <i class="bi bi-chat-quote-fill quote-icon"></i>
+                    <p>"La atención de emergencia fue rápida y efectiva. Salvaron a mi gato Simba."</p>
+                    <div class="testimonial-author"><i class="bi bi-person-circle"></i><span>Laura Fernández</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container text-center">
+        <h2>¿Listo para cuidar a tu mascota?</h2>
+        <p>Reserva una cita hoy mismo y dale la mejor atención veterinaria</p>
+        <a href="citas.html" class="btn btn-primary btn-lg">Agendar Cita <i class="bi bi-calendar-week"></i></a>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <img src="descarga.png" alt="VetAgenda Logo" class="footer-logo-img">
+                    <h5>VetAgenda</h5>
+                </div>
+                <p class="footer-description">Cuidamos a tu mascota con amor y profesionalismo.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h5>Enlaces Rápidos</h5>
+                <ul class="footer-links">
+                    <li><a href="servicios.html"><i class="bi bi-box-seam"></i> Servicios</a></li>
+                    <li><a href="contactos.html"><i class="bi bi-envelope"></i> Contacto</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h5>Síguenos</h5>
+                <div class="footer-social">
+                    <a href="https://wa.me/59177777777" target="_blank" class="footer-social-link whatsapp">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="footer-social-link facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" class="footer-social-link instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-pets">
+            <i class="bi bi-paw"></i>
+            <i class="bi bi-paw"></i>
+            <i class="bi bi-paw"></i>
+            <i class="bi bi-paw"></i>
+            <i class="bi bi-paw"></i>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 VetAgenda - Todos los derechos reservados</p>
+        </div>
+    </div>
+</footer>
+<div class="social-float">
+    <a href="https://wa.me/59177777777" target="_blank" class="social-btn whatsapp"><i class="bi bi-whatsapp"></i></a>
+    <a href="https://facebook.com" target="_blank" class="social-btn facebook"><i class="bi bi-facebook"></i></a>
+    <a href="https://instagram.com" target="_blank" class="social-btn instagram"><i class="bi bi-instagram"></i></a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
